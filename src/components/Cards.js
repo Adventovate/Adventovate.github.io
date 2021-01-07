@@ -14,12 +14,14 @@ function Cards() {
               text='Helps you become more productive by keeping you away from your mobile device'
               label='Productivity'
               path='/services'
+              alt='Keep Me Out app'
             />
             <CardItem
               src='/images/kashmiri.png'
               text='A Calendar that helps Kashmiri Community keep track of daily events and activities'
               label='Calendar'
               path='/services'
+              alt='Kashmiri calendar app'
             />
           </ul>
           {/* <ul className='cards__items'>

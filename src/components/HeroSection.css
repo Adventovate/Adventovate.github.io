@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-  background: url('/images/img-beach.jpg') center center/cover no-repeat;
+  background: url('/images/unsplash-1.jpg') center center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -28,6 +28,7 @@ video {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
+  text-align: center;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
 }

@@ -25,7 +25,7 @@ function Footer() {
           </form>
         </div>
       </section> */}
-      <div class='footer-links'>
+      {/* <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
@@ -59,15 +59,15 @@ function Footer() {
             <Link to='/'>Twitter</Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <section class='social-media'>
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              <i class='fas fa-globe-asia' />
-              &nbsp; Adventovate
+              Adventovate
             </Link>
           </div>
+          <small class='website-rights'>Made with &hearts; in India</small>
           <small class='website-rights'>© Vikesh Dass</small>
           <div class='social-icons'>
             <Link
