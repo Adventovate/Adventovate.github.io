@@ -86,7 +86,7 @@ h1 {
 }
 
 .cards__item__img:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .cards__item__info {
@@ -94,6 +94,7 @@ h1 {
 }
 
 .cards__item__text {
+  font-family: "PT Sans", sans-serif;
   color: #252e48;
   font-size: 18px;
   line-height: 24px;

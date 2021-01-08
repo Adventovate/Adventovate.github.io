@@ -9,8 +9,7 @@ export default function Policy() {
       <p>Keep Me Out as a free application which is ad-supported with an in-app purchases to remove ads from app.
         This Service is provided by Vikesh Dass at almost no cost and is intended for use as is.</p>
 
-      <p>If you choose to use these Service, then you agree to the policies defined here.
-        I will not use or share your information with anyone except as described in this Privacy Policy.</p>
+      <p>If you choose to use these Service, then you agree to the policies defined here. I will not use or share your information with anyone except as described in this Privacy Policy.</p>
 
       <br />
       <h2>Information Collection and Usage</h2>

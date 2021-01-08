@@ -10,14 +10,14 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/images/kmo.png'
+              src='/images/kmo.webp'
               text='Helps you become more productive by keeping you away from your mobile device'
               label='Productivity'
               path='/services'
               alt='Keep Me Out app'
             />
             <CardItem
-              src='/images/kashmiri.png'
+              src='/images/kashmiri.webp'
               text='A Calendar that helps Kashmiri Community keep track of daily events and activities'
               label='Calendar'
               path='/services'
