@@ -6,7 +6,16 @@ function CardItem(props) {
     <>
       <li className='cards__item'>
         <Link className='cards__item__link' to={props.path}>
-          <figure className='cards__item__pic-wrap' data-category={props.label}>
+          <div className='cards__item__title'>
+            <img className='cards__item__logo_img'
+              alt={props.logoAlt}
+              src={props.logoSrc} />
+
+            <h1 className='cards__item__title_text' >
+              {props.titleAlt}
+            </h1>
+          </div>
+          <figure className='cards__item__pic-wrap' data-category={props.category}>
             <img className='cards__item__img'
               alt={props.alt}
               src={props.src}

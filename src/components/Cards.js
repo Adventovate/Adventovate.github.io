@@ -10,40 +10,26 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='/images/kmo.webp'
+              src='/images/phone-kmo.webp'
               text='Helps you become more productive by keeping you away from your mobile device'
-              label='Productivity'
+              category='Productivity'
               path='/services'
-              alt='Keep Me Out app'
+              alt='Keep Me Out app phone screenshot'
+              titleAlt='Keep Me Out'
+              logoAlt='KMO Logo'
+              logoSrc='/images/kmo_logo.webp'
             />
             <CardItem
-              src='/images/kashmiri.webp'
+              src='/images/kc-phone.webp'
               text='A Calendar that helps Kashmiri Community keep track of daily events and activities'
-              label='Calendar'
+              category='Calendar'
               path='/services'
-              alt='Kashmiri calendar app'
+              alt='Kashmiri calendar app phone screenshot'
+              titleAlt='Kashmiri calendar'
+              logoAlt='KMO Logo'
+              logoSrc='/images/kc_logo.webp'
             />
           </ul>
-          {/* <ul className='cards__items'>
-            <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
-              path='/services'
-            />
-            <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
-              path='/products'
-            />
-            <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
-              path='/sign-up'
-            />
-          </ul> */}
         </div>
       </div>
     </div>

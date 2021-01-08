@@ -47,7 +47,7 @@ h1 {
 .cards__item__pic-wrap {
   position: relative;
   width: 100%;
-  padding-top: 67%;
+  padding-top: 100%;
   overflow: hidden;
 }
 
@@ -56,7 +56,7 @@ h1 {
   animation-duration: 2s;
 }
 
-.cards__item__pic-wrap::after {
+.cards__item__pic-wrap::before {
   content: attr(data-category);
   position: absolute;
   bottom: 0;
@@ -70,6 +70,25 @@ h1 {
   box-sizing: border-box;
 }
 
+.cards__item__title {
+  margin: 1rem 0 0.5rem 0;
+  text-align: center;
+}
+
+.cards__item__title_text {
+  font-family: "Poppins", sans-serif;
+  color: #252e48;
+  font-size: 28px;
+  line-height: 24px;
+}
+
+.cards__item__logo_img {
+  position: relative;
+  width: 15%;
+  overflow: hidden;
+  min-width: 10%;
+}
+
 .cards__item__img {
   position: absolute;
   top: 0;
@@ -81,7 +100,7 @@ h1 {
   max-width: 100%;
   height: 100%;
   max-height: 100%;
-  object-fit: cover;
+  object-fit: scale-down;
   transition: all 0.2s linear;
 }
 
